@@ -19,11 +19,13 @@
 // Definitions are imported from NodeJS mime-db project under MIT license.
 package mimedb
 
+type mimeEntry struct {
+	ContentType  string `json:"contentType"`
+	Compressible bool   `json:"compresible"`
+}
+
 // DB - Mime is a collection of mime types with extension as key and content-type as value.
-var DB = map[string]struct {
-	ContentType  string
-	Compressible bool
-}{
+var DB = map[string]mimeEntry{
 	"123": {
 		ContentType:  "application/vnd.lotus-1-2-3",
 		Compressible: false,
