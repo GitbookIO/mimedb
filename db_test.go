@@ -14,24 +14,16 @@
  * limitations under the License.
  */
 
-package mimedb_test
+package mimedb
 
 import (
 	"testing"
-
-	"github.com/minio/minio/pkg/mimedb"
-
-	. "gopkg.in/check.v1"
 )
 
-func Test(t *testing.T) { TestingT(t) }
-
-type MySuite struct{}
-
-var _ = Suite(&MySuite{})
-
-func (s *MySuite) TestLookup(c *C) {
+func TestLookup(t *testing.T) {
 	// Test MustLookup.
-	contentType := mimedb.DB["exe"].ContentType
-	c.Assert(contentType, Not(Equals), "")
+	contentType := DB["exe"].ContentType
+	if contentType == "" {
+		t.Errorf("Failed to lookup 'exe' content-type")
+	}
 }
