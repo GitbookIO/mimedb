@@ -73,7 +73,7 @@ func convertDB(jsonFile string) (mimeDB, error) {
 	// Structure of JSON data from mime-db project.
 	type dbEntry struct {
 		Source       string   `json:"source"`
-		Compressible bool     `json:"compresible"`
+		Compressible bool     `json:"compressible"`
 		Extensions   []string `json:"extensions"`
 	}
 
