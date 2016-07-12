@@ -114,7 +114,7 @@ var DB = map[string]struct {
 	},
 	"ai": {
 		ContentType:  "application/postscript",
-		Compressible: false,
+		Compressible: true,
 	},
 	"aif": {
 		ContentType:  "audio/x-aiff",
@@ -146,7 +146,7 @@ var DB = map[string]struct {
 	},
 	"appcache": {
 		ContentType:  "text/cache-manifest",
-		Compressible: false,
+		Compressible: true,
 	},
 	"application": {
 		ContentType:  "application/x-ms-application",
@@ -186,7 +186,7 @@ var DB = map[string]struct {
 	},
 	"atom": {
 		ContentType:  "application/atom+xml",
-		Compressible: false,
+		Compressible: true,
 	},
 	"atomcat": {
 		ContentType:  "application/atomcat+xml",
@@ -270,7 +270,7 @@ var DB = map[string]struct {
 	},
 	"bmp": {
 		ContentType:  "image/x-ms-bmp",
-		Compressible: false,
+		Compressible: true,
 	},
 	"book": {
 		ContentType:  "application/vnd.framemaker",
@@ -538,7 +538,7 @@ var DB = map[string]struct {
 	},
 	"conf": {
 		ContentType:  "text/plain",
-		Compressible: false,
+		Compressible: true,
 	},
 	"cpio": {
 		ContentType:  "application/x-cpio",
@@ -586,7 +586,7 @@ var DB = map[string]struct {
 	},
 	"css": {
 		ContentType:  "text/css",
-		Compressible: false,
+		Compressible: true,
 	},
 	"cst": {
 		ContentType:  "application/x-director",
@@ -594,7 +594,7 @@ var DB = map[string]struct {
 	},
 	"csv": {
 		ContentType:  "text/csv",
-		Compressible: false,
+		Compressible: true,
 	},
 	"cu": {
 		ContentType:  "application/cu-seeme",
@@ -626,7 +626,7 @@ var DB = map[string]struct {
 	},
 	"dart": {
 		ContentType:  "application/vnd.dart",
-		Compressible: false,
+		Compressible: true,
 	},
 	"dataless": {
 		ContentType:  "application/vnd.fdsn.seed",
@@ -662,7 +662,7 @@ var DB = map[string]struct {
 	},
 	"def": {
 		ContentType:  "text/plain",
-		Compressible: false,
+		Compressible: true,
 	},
 	"deploy": {
 		ContentType:  "application/octet-stream",
@@ -778,7 +778,7 @@ var DB = map[string]struct {
 	},
 	"dtd": {
 		ContentType:  "application/xml-dtd",
-		Compressible: false,
+		Compressible: true,
 	},
 	"dts": {
 		ContentType:  "audio/vnd.dts",
@@ -838,7 +838,7 @@ var DB = map[string]struct {
 	},
 	"ecma": {
 		ContentType:  "application/ecmascript",
-		Compressible: false,
+		Compressible: true,
 	},
 	"edm": {
 		ContentType:  "application/vnd.novadigm.edm",
@@ -866,7 +866,7 @@ var DB = map[string]struct {
 	},
 	"eml": {
 		ContentType:  "message/rfc822",
-		Compressible: false,
+		Compressible: true,
 	},
 	"emma": {
 		ContentType:  "application/emma+xml",
@@ -882,11 +882,11 @@ var DB = map[string]struct {
 	},
 	"eot": {
 		ContentType:  "application/vnd.ms-fontobject",
-		Compressible: false,
+		Compressible: true,
 	},
 	"eps": {
 		ContentType:  "application/postscript",
-		Compressible: false,
+		Compressible: true,
 	},
 	"epub": {
 		ContentType:  "application/epub+zip",
@@ -1310,11 +1310,11 @@ var DB = map[string]struct {
 	},
 	"htm": {
 		ContentType:  "text/html",
-		Compressible: false,
+		Compressible: true,
 	},
 	"html": {
 		ContentType:  "text/html",
-		Compressible: false,
+		Compressible: true,
 	},
 	"hvd": {
 		ContentType:  "application/vnd.yamaha.hv-dic",
@@ -1346,7 +1346,7 @@ var DB = map[string]struct {
 	},
 	"ico": {
 		ContentType:  "image/x-icon",
-		Compressible: false,
+		Compressible: true,
 	},
 	"ics": {
 		ContentType:  "text/calendar",
@@ -1402,11 +1402,11 @@ var DB = map[string]struct {
 	},
 	"in": {
 		ContentType:  "text/plain",
-		Compressible: false,
+		Compressible: true,
 	},
 	"ini": {
 		ContentType:  "text/plain",
-		Compressible: false,
+		Compressible: true,
 	},
 	"ink": {
 		ContentType:  "application/inkml+xml",
@@ -1526,11 +1526,11 @@ var DB = map[string]struct {
 	},
 	"js": {
 		ContentType:  "application/javascript",
-		Compressible: false,
+		Compressible: true,
 	},
 	"json": {
 		ContentType:  "application/json",
-		Compressible: false,
+		Compressible: true,
 	},
 	"json5": {
 		ContentType:  "application/json5",
@@ -1538,15 +1538,15 @@ var DB = map[string]struct {
 	},
 	"jsonld": {
 		ContentType:  "application/ld+json",
-		Compressible: false,
+		Compressible: true,
 	},
 	"jsonml": {
 		ContentType:  "application/jsonml+json",
-		Compressible: false,
+		Compressible: true,
 	},
 	"jsx": {
 		ContentType:  "text/jsx",
-		Compressible: false,
+		Compressible: true,
 	},
 	"kar": {
 		ContentType:  "audio/midi",
@@ -1566,7 +1566,7 @@ var DB = map[string]struct {
 	},
 	"kml": {
 		ContentType:  "application/vnd.google-earth.kml+xml",
-		Compressible: false,
+		Compressible: true,
 	},
 	"kmz": {
 		ContentType:  "application/vnd.google-earth.kmz",
@@ -1654,7 +1654,7 @@ var DB = map[string]struct {
 	},
 	"list": {
 		ContentType:  "text/plain",
-		Compressible: false,
+		Compressible: true,
 	},
 	"list3820": {
 		ContentType:  "application/vnd.ibm.modcap",
@@ -1674,7 +1674,7 @@ var DB = map[string]struct {
 	},
 	"log": {
 		ContentType:  "text/plain",
-		Compressible: false,
+		Compressible: true,
 	},
 	"lostxml": {
 		ContentType:  "application/lost+xml",
@@ -1786,11 +1786,11 @@ var DB = map[string]struct {
 	},
 	"manifest": {
 		ContentType:  "text/cache-manifest",
-		Compressible: false,
+		Compressible: true,
 	},
 	"map": {
 		ContentType:  "application/json",
-		Compressible: false,
+		Compressible: true,
 	},
 	"mar": {
 		ContentType:  "application/octet-stream",
@@ -1798,7 +1798,7 @@ var DB = map[string]struct {
 	},
 	"markdown": {
 		ContentType:  "text/x-markdown",
-		Compressible: false,
+		Compressible: true,
 	},
 	"mathml": {
 		ContentType:  "application/mathml+xml",
@@ -1830,7 +1830,7 @@ var DB = map[string]struct {
 	},
 	"md": {
 		ContentType:  "text/x-markdown",
-		Compressible: false,
+		Compressible: true,
 	},
 	"mdb": {
 		ContentType:  "application/x-msaccess",
@@ -1894,7 +1894,7 @@ var DB = map[string]struct {
 	},
 	"mime": {
 		ContentType:  "message/rfc822",
-		Compressible: false,
+		Compressible: true,
 	},
 	"mj2": {
 		ContentType:  "video/mj2",
@@ -1914,7 +1914,7 @@ var DB = map[string]struct {
 	},
 	"mkd": {
 		ContentType:  "text/x-markdown",
-		Compressible: false,
+		Compressible: true,
 	},
 	"mks": {
 		ContentType:  "video/x-matroska",
@@ -2154,7 +2154,7 @@ var DB = map[string]struct {
 	},
 	"n3": {
 		ContentType:  "text/n3",
-		Compressible: false,
+		Compressible: true,
 	},
 	"nb": {
 		ContentType:  "application/mathematica",
@@ -2354,7 +2354,7 @@ var DB = map[string]struct {
 	},
 	"otf": {
 		ContentType:  "font/opentype",
-		Compressible: false,
+		Compressible: true,
 	},
 	"otg": {
 		ContentType:  "application/vnd.oasis.opendocument.graphics-template",
@@ -2426,7 +2426,7 @@ var DB = map[string]struct {
 	},
 	"pac": {
 		ContentType:  "application/x-ns-proxy-autoconfig",
-		Compressible: false,
+		Compressible: true,
 	},
 	"pas": {
 		ContentType:  "text/x-pascal",
@@ -2478,7 +2478,7 @@ var DB = map[string]struct {
 	},
 	"pde": {
 		ContentType:  "text/x-processing",
-		Compressible: false,
+		Compressible: true,
 	},
 	"pdf": {
 		ContentType:  "application/pdf",
@@ -2522,7 +2522,7 @@ var DB = map[string]struct {
 	},
 	"php": {
 		ContentType:  "application/x-httpd-php",
-		Compressible: false,
+		Compressible: true,
 	},
 	"pic": {
 		ContentType:  "image/x-pict",
@@ -2650,7 +2650,7 @@ var DB = map[string]struct {
 	},
 	"ps": {
 		ContentType:  "application/postscript",
-		Compressible: false,
+		Compressible: true,
 	},
 	"psb": {
 		ContentType:  "application/vnd.3gpp.pic-bw-small",
@@ -2658,7 +2658,7 @@ var DB = map[string]struct {
 	},
 	"psd": {
 		ContentType:  "image/vnd.adobe.photoshop",
-		Compressible: false,
+		Compressible: true,
 	},
 	"psf": {
 		ContentType:  "application/x-font-linux-psf",
@@ -2758,7 +2758,7 @@ var DB = map[string]struct {
 	},
 	"rdf": {
 		ContentType:  "application/rdf+xml",
-		Compressible: false,
+		Compressible: true,
 	},
 	"rdz": {
 		ContentType:  "application/vnd.data-vision.rdz",
@@ -2826,7 +2826,7 @@ var DB = map[string]struct {
 	},
 	"rng": {
 		ContentType:  "application/xml",
-		Compressible: false,
+		Compressible: true,
 	},
 	"roa": {
 		ContentType:  "application/rpki-roa",
@@ -2866,15 +2866,15 @@ var DB = map[string]struct {
 	},
 	"rss": {
 		ContentType:  "application/rss+xml",
-		Compressible: false,
+		Compressible: true,
 	},
 	"rtf": {
 		ContentType:  "text/rtf",
-		Compressible: false,
+		Compressible: true,
 	},
 	"rtx": {
 		ContentType:  "text/richtext",
-		Compressible: false,
+		Compressible: true,
 	},
 	"run": {
 		ContentType:  "application/x-makeself",
@@ -3022,7 +3022,7 @@ var DB = map[string]struct {
 	},
 	"sh": {
 		ContentType:  "application/x-sh",
-		Compressible: false,
+		Compressible: true,
 	},
 	"shar": {
 		ContentType:  "application/x-shar",
@@ -3034,7 +3034,7 @@ var DB = map[string]struct {
 	},
 	"shtml": {
 		ContentType:  "text/html",
-		Compressible: false,
+		Compressible: true,
 	},
 	"sid": {
 		ContentType:  "image/x-mrsid-image",
@@ -3278,11 +3278,11 @@ var DB = map[string]struct {
 	},
 	"svg": {
 		ContentType:  "image/svg+xml",
-		Compressible: false,
+		Compressible: true,
 	},
 	"svgz": {
 		ContentType:  "image/svg+xml",
-		Compressible: false,
+		Compressible: true,
 	},
 	"swa": {
 		ContentType:  "application/x-director",
@@ -3338,7 +3338,7 @@ var DB = map[string]struct {
 	},
 	"tar": {
 		ContentType:  "application/x-tar",
-		Compressible: false,
+		Compressible: true,
 	},
 	"tcap": {
 		ContentType:  "application/vnd.3gpp2.tcap",
@@ -3374,7 +3374,7 @@ var DB = map[string]struct {
 	},
 	"text": {
 		ContentType:  "text/plain",
-		Compressible: false,
+		Compressible: true,
 	},
 	"tfi": {
 		ContentType:  "application/thraud+xml",
@@ -3442,15 +3442,15 @@ var DB = map[string]struct {
 	},
 	"tsv": {
 		ContentType:  "text/tab-separated-values",
-		Compressible: false,
+		Compressible: true,
 	},
 	"ttc": {
 		ContentType:  "application/x-font-ttf",
-		Compressible: false,
+		Compressible: true,
 	},
 	"ttf": {
 		ContentType:  "application/x-font-ttf",
-		Compressible: false,
+		Compressible: true,
 	},
 	"ttl": {
 		ContentType:  "text/turtle",
@@ -3474,7 +3474,7 @@ var DB = map[string]struct {
 	},
 	"txt": {
 		ContentType:  "text/plain",
-		Compressible: false,
+		Compressible: true,
 	},
 	"u32": {
 		ContentType:  "application/x-authorware-bin",
@@ -3510,15 +3510,15 @@ var DB = map[string]struct {
 	},
 	"uri": {
 		ContentType:  "text/uri-list",
-		Compressible: false,
+		Compressible: true,
 	},
 	"uris": {
 		ContentType:  "text/uri-list",
-		Compressible: false,
+		Compressible: true,
 	},
 	"urls": {
 		ContentType:  "text/uri-list",
-		Compressible: false,
+		Compressible: true,
 	},
 	"ustar": {
 		ContentType:  "application/x-ustar",
@@ -3646,7 +3646,7 @@ var DB = map[string]struct {
 	},
 	"vcard": {
 		ContentType:  "text/vcard",
-		Compressible: false,
+		Compressible: true,
 	},
 	"vcd": {
 		ContentType:  "application/x-cdlink",
@@ -3714,7 +3714,7 @@ var DB = map[string]struct {
 	},
 	"vtt": {
 		ContentType:  "text/vtt",
-		Compressible: false,
+		Compressible: true,
 	},
 	"vtu": {
 		ContentType:  "model/vnd.vtu",
@@ -3774,7 +3774,7 @@ var DB = map[string]struct {
 	},
 	"webapp": {
 		ContentType:  "application/x-web-app-manifest+json",
-		Compressible: false,
+		Compressible: true,
 	},
 	"webm": {
 		ContentType:  "video/webm",
@@ -3782,7 +3782,7 @@ var DB = map[string]struct {
 	},
 	"webmanifest": {
 		ContentType:  "application/manifest+json",
-		Compressible: false,
+		Compressible: true,
 	},
 	"webp": {
 		ContentType:  "image/webp",
@@ -3898,7 +3898,7 @@ var DB = map[string]struct {
 	},
 	"x3d": {
 		ContentType:  "model/x3d+xml",
-		Compressible: false,
+		Compressible: true,
 	},
 	"x3db": {
 		ContentType:  "model/x3d+binary",
@@ -3918,7 +3918,7 @@ var DB = map[string]struct {
 	},
 	"x3dz": {
 		ContentType:  "model/x3d+xml",
-		Compressible: false,
+		Compressible: true,
 	},
 	"xaml": {
 		ContentType:  "application/xaml+xml",
@@ -3982,11 +3982,11 @@ var DB = map[string]struct {
 	},
 	"xht": {
 		ContentType:  "application/xhtml+xml",
-		Compressible: false,
+		Compressible: true,
 	},
 	"xhtml": {
 		ContentType:  "application/xhtml+xml",
-		Compressible: false,
+		Compressible: true,
 	},
 	"xhvml": {
 		ContentType:  "application/xv+xml",
@@ -4054,7 +4054,7 @@ var DB = map[string]struct {
 	},
 	"xml": {
 		ContentType:  "text/xml",
-		Compressible: false,
+		Compressible: true,
 	},
 	"xo": {
 		ContentType:  "application/vnd.olpc-sugar",
@@ -4062,7 +4062,7 @@ var DB = map[string]struct {
 	},
 	"xop": {
 		ContentType:  "application/xop+xml",
-		Compressible: false,
+		Compressible: true,
 	},
 	"xpi": {
 		ContentType:  "application/x-xpinstall",
@@ -4094,11 +4094,11 @@ var DB = map[string]struct {
 	},
 	"xsd": {
 		ContentType:  "application/xml",
-		Compressible: false,
+		Compressible: true,
 	},
 	"xsl": {
 		ContentType:  "application/xml",
-		Compressible: false,
+		Compressible: true,
 	},
 	"xslt": {
 		ContentType:  "application/xslt+xml",
@@ -4114,7 +4114,7 @@ var DB = map[string]struct {
 	},
 	"xul": {
 		ContentType:  "application/vnd.mozilla.xul+xml",
-		Compressible: false,
+		Compressible: true,
 	},
 	"xvm": {
 		ContentType:  "application/xv+xml",
@@ -4154,7 +4154,7 @@ var DB = map[string]struct {
 	},
 	"ymp": {
 		ContentType:  "text/x-suse-ymp",
-		Compressible: false,
+		Compressible: true,
 	},
 	"z1": {
 		ContentType:  "application/x-zmachine",
